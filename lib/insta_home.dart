@@ -7,7 +7,8 @@ class InstaHome extends StatelessWidget {
     centerTitle: true,
     elevation: 1.0,
     leading: new Icon(Icons.camera_alt),
-    title: SizedBox(height: 35.0, child: Image.asset("assets/insta_logo.png")),
+    title: SizedBox(
+        height: 35.0, child: Image(image: AssetImage('insta_logo.png'))),
     actions: <Widget>[
       Padding(
         padding: const EdgeInsets.only(right: 12.0),
