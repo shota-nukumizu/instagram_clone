@@ -39,8 +39,7 @@ class _InstaListState extends State<InstaList> {
                               shape: BoxShape.circle,
                               image: new DecorationImage(
                                   fit: BoxFit.fill,
-                                  image: new NetworkImage(
-                                      "https://pbs.twimg.com/profile_images/916384996092448768/PF1TSFOE_400x400.jpg")),
+                                  image: AssetImage('profile.jpeg')),
                             ),
                           ),
                           new SizedBox(
